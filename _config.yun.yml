@@ -44,7 +44,7 @@ banner:
 
 bg_image:
   enable: true
-  url: https://s2.loli.net/2022/10/31/8wAPjhJV3nHUfTv.jpg
+  url: /images/homepage.jpg
   # dark:
   # blur: 30px # 设置背景模糊程度
   opacity: 0.8
@@ -135,12 +135,6 @@ lazyload:
 
 footer:
   since: 2022
-  icon:
-    name: ri:cloud-line
-    animated: true
-    color: '#0078E7'
-    url: https://sponsors.yunyoujun.cn
-    title: 云游君的赞助者们
   powered:
     enable: true
   beian:
@@ -170,3 +164,11 @@ footer:
     hitokoto:
       enable: true
       api: https://v1.hitokoto.cn
+
+wordcloud:
+  enable: true
+
+wordcount:
+  enable: true
+  count: true
+  time: true
