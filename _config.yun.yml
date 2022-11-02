@@ -44,9 +44,9 @@ banner:
 
 bg_image:
   enable: true
-  url: /images/homepage.jpg
-  # dark:
-  # blur: 30px # 设置背景模糊程度
+  url: https://s2.loli.net/2022/11/02/BqxzoClAmNYUDs2.jpg # recomend image related to your mode
+  dark: https://cdn.yunyoujun.cn/img/bg/galaxy.jpg
+  # blur: 30px
   opacity: 0.8
 
 search:
