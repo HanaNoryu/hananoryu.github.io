@@ -4,7 +4,7 @@
 
 # Site
 title: Noryuの杂物铺
-subtitle: ''
+subtitle: 记录生活中的点点滴滴
 description: The world is full of possibilities.
 keywords:
   - HanaNoryu
@@ -120,33 +120,33 @@ deploy:
   type: git
   repo: https://github.com/HanaNoryu/hananoryu.github.io.git
   branch: master
-  message: Update Hexo Static Content
+  message:
 
 # plugins
 # https://github.com/hexojs/hexo-generator-feed
-feed:
-  type: atom
-  path: atom.xml
-  limit: 20
-  hub:
-  content:
-  content_limit: 140
-  content_limit_delim: ' '
-  order_by: -updated
-  icon: favicon.png
-  autodiscovery: true
-  template:
+# feed:
+#   type: atom
+#   path: atom.xml
+#   limit: 20
+#   hub:
+#   content:
+#   content_limit: 140
+#   content_limit_delim: ' '
+#   order_by: -updated
+#   icon: favicon.png
+#   autodiscovery: true
+#   template:
 
 # https://github.com/hexojs/hexo-generator-sitemap
-sitemap:
-  path: sitemap.xml
+# sitemap:
+#   path: sitemap.xml
 
 # https://github.com/oncletom/hexo-algolia
-algolia:
-  applicationID: CJXXAGRCYN
-  apiKey: ae1966d2aeab22bf9335679f45d2cd9a
-  indexName: my-hexo-blog
-  chunkSize: 5000
+# algolia:
+#   applicationID: CJXXAGRCYN
+#   apiKey: ae1966d2aeab22bf9335679f45d2cd9a
+#   indexName: my-hexo-blog
+#   chunkSize: 5000
 
 # https://github.com/hexojs/hexo-renderer-marked
 marked:
