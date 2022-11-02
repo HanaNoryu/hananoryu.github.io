@@ -1,7 +1,27 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "hananoryu.github.io",
+  "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@7.1.7",
+  "description": "HanaNoryu Blog",
+  "author": "HanaNoryu <HanaNoryu@outlook.com>",
+  "license": "CC-BY-NC-SA-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanaNoryu/hananoryu.github.io.git"
+  },
+  "keywords": [
+    "hananoryu.cn",
+    "HanaNoryu",
+    "极光",
+    "Blog",
+    "博客",
+    "Noryuの杂物铺",
+    "www.hananoryu.cn"
+  ],
+  "files": [
+    "source/_posts/*"
+  ],
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
