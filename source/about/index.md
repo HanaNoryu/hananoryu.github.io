@@ -1,7 +1,7 @@
 ---
 title: 关于我
 date: 2022-11-01 15:38:31
-type: 'about'
+type: about
 aplayer: true
 reward: false
 icon: ri:cloud-line
