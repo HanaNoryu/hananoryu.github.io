@@ -5,6 +5,7 @@ type: about
 aplayer: true
 reward: false
 icon: ri:home-4-line
+comments: false
 ---
 
 {% meting "27876224" "netease" "song" "theme:#C20C0C" %}

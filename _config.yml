@@ -23,7 +23,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://hananoryu.github.io
 # url: https://www.hananoryu.cn
 # root: /
 # permalink: :title/ # :category/:title
@@ -155,7 +155,6 @@ sitemap:
 algolia:
   applicationID: 18E8F0DA4N
   apiKey: 1ec248f9b05a87b508f52c823a4bdb1a
-  adminApiKey: 847373a4187feef5bc36b9224087edb0
   indexName: hexo
   chunkSize: 5000
 

@@ -237,3 +237,11 @@ algolia_search:
     per_page: 10 # the number of search results per page
 
 baidu_push: true
+
+google_analytics:
+  enable: true
+  id: G-GS7RDD51PT
+
+  google_adsense:
+    enable: false
+    client:
