@@ -1,6 +1,6 @@
 ---
 title: 关于我
-date: 2022-11-01 15:38:31
+hideTime: true
 type: about
 aplayer: true
 reward: false

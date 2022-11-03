@@ -1,9 +1,9 @@
 ---
 title: 关于站点
-date: 2022-11-1 10:48:25
+hideTime: true
 type: about
 aplayer: true
-reward: true
+reward: false
 icon: ri:home-4-line
 ---
 
