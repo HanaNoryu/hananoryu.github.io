@@ -191,7 +191,8 @@ footer:
     suffix: 提供 CDN 加速
   say:
     enable: true
-    # api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+    api:
+    # https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
     # https://developer.hitokoto.cn/sentence/
     hitokoto:
       enable: true
@@ -242,6 +243,6 @@ google_analytics:
   enable: true
   id: G-GS7RDD51PT
 
-  google_adsense:
-    enable: false
-    client:
+google_adsense:
+  enable: false
+  client:
