@@ -26,9 +26,19 @@ timezone: Asia/Shanghai
 url: http://example.com
 # url: https://www.hananoryu.cn
 # root: /
-permalink: :title/ # :category/:title
-permalink_defaults:
-  lang: en
+# permalink: :title/ # :category/:title
+# permalink_defaults:
+#   lang: en
+permalink: posts/:abbrlink/
+abbrlink:
+  alg: crc32 # support crc16(default) and crc32
+  rep: hex # support dec(default) and hex
+  drafts: false # (true)Process draft,(false)Do not process draft
+  # Generate categories from directory-tree
+  # depth: the max_depth of directory-tree you want to generate, should > 0
+  auto_category:
+    enable: false # 默认为 true， 手改改为 false
+    depth:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
@@ -138,15 +148,16 @@ deploy:
 #   template:
 
 # https://github.com/hexojs/hexo-generator-sitemap
-# sitemap:
-#   path: sitemap.xml
+sitemap:
+  path: sitemap.xml
 
 # https://github.com/oncletom/hexo-algolia
-# algolia:
-#   applicationID: CJXXAGRCYN
-#   apiKey: ae1966d2aeab22bf9335679f45d2cd9a
-#   indexName: my-hexo-blog
-#   chunkSize: 5000
+algolia:
+  applicationID: 18E8F0DA4N
+  apiKey: 1ec248f9b05a87b508f52c823a4bdb1a
+  adminApiKey: 847373a4187feef5bc36b9224087edb0
+  indexName: hexo
+  chunkSize: 5000
 
 # https://github.com/hexojs/hexo-renderer-marked
 marked:

@@ -31,16 +31,16 @@ banner:
     - 杂
     - 物
     - 铺
-  border: true
+  border: false
   cloud:
     enable: true
     color: white
   go_down:
     enable: true
     icon: ri:arrow-down-s-line
-# notice:
-#   enable: true
-#   content: Thanks for playing my game.
+notice:
+  enable: true
+  content: いつか想いが叶うまで
 
 bg_image:
   enable: true
@@ -52,7 +52,7 @@ bg_image:
 search:
   modal: true
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
-  dark_bg_image: xxx
+  dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-2.jpg
 
 fireworks:
   enable: true
@@ -68,6 +68,12 @@ scrollreveal:
   targets:
     - .post-card
     - .markdown-body img
+
+cursor:
+  enable: true
+  default: https://cdn.yunyoujun.cn/css/md-cursors/pointer.cur
+  pointer: https://cdn.yunyoujun.cn/css/md-cursors/link.cur
+  text: https://cdn.yunyoujun.cn/css/md-cursors/text.cur
 
 sidebar:
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-1.jpg
@@ -128,13 +134,39 @@ creative_commons:
   license: by-nc-sa
   post: true
   language: deed.zh
-  clipboard: true
+  clipboard: false
 
 lazyload:
   enable: true
 
+reward:
+  enable: false
+  icon: ri:hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg
+      color: '#00A3EE'
+      icon: ri:alipay-line
+      # link: https://xxxx
+    - name: QQ 支付
+      path: https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png
+      color: '#12B7F5'
+      icon: ri:qq-line
+    - name: 微信支付
+      path: https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg
+      color: '#2DC100'
+      icon: ri:wechat-pay-line
+
 footer:
   since: 2022
+  icon:
+    name: ri:cloud-line
+    animated: true
+    color: '#0078E7'
+    url:
+    title:
   powered:
     enable: true
   beian:
@@ -151,7 +183,7 @@ footer:
     suffix: (●'◡'●)
     start_time: '2019-04-12T00:00:00'
   support:
-    enable: true
+    enable: false
     title: 又拍云
     link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
     logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
@@ -159,7 +191,7 @@ footer:
     suffix: 提供 CDN 加速
   say:
     enable: true
-    api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+    # api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
     # https://developer.hitokoto.cn/sentence/
     hitokoto:
       enable: true
@@ -167,8 +199,41 @@ footer:
 
 wordcloud:
   enable: true
+  height: 350
 
 wordcount:
   enable: true
   count: true
   time: true
+
+github_issues:
+  enable: false
+
+github_discussions:
+  enable: false
+
+disqusjs:
+  enable: false
+  shortname:
+  apikey:
+
+# https://github.com/laymonage/giscus
+giscus:
+  enable: false
+  repo:
+  repo-id:
+  category-id:
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
+
+engine_search:
+  enable: false
+
+algolia_search:
+  enable: true
+  hits:
+    per_page: 10 # the number of search results per page
+
+baidu_push: true

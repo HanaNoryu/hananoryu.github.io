@@ -1,10 +1,26 @@
+_multiconfig.yml
+
+# custom
+dist
 .DS_Store
 Thumbs.db
-db.json
-*.log
-node_modules/
-public/
-.deploy*/
-_multiconfig.yml
+tmp
+temp/
+
+# lock
+yarn.lock
 package-lock.json
-update.sh
+pnpm-global/
+
+# dev
+node_modules/
+*.log
+
+# dist
+public/
+db.json
+.deploy*/
+
+# hexo
+# now we don't need themes, just by 'npm i hexo-theme-yun'
+themes/
