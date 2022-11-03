@@ -23,10 +23,14 @@
     "source/_posts/*"
   ],
   "scripts": {
+    "algolia": "hexo clean && hexo algolia",
+    "backup": "sh bash/backup.sh",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "predeploy": "hexo clean && hexo g",
+    "post": "hexo new post"
   },
   "hexo": {
     "version": "6.3.0"
