@@ -25,7 +25,7 @@ jobs:
 
       - name: algolia
         env:
-          HEXO_ALGOLIA_INDEXING_KEY: ${{ secrets.HEXO_ALGOLIA_INDEXING_KEY }}
+          HEXO_ALGOLIA_INDEXING_KEY: 847373a4187feef5bc36b9224087edb0
         run: npm run algolia --if-present
 
       - name: Build
