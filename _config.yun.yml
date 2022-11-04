@@ -173,7 +173,6 @@ footer:
     title:
   powered:
     enable: true
-    version: false
   beian:
     enable: true
     icp: 苏ICP备xxxxxxxx号
