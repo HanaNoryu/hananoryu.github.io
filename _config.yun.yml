@@ -6,6 +6,10 @@ avatar:
   opacity: 1
 
 social:
+  - name: QQ
+    link: tencent://message/?uin=1581893646&Site=Sambow&Menu=yes
+    icon: ri:qq-line
+    color: '#12B7F5'
   - name: GitHub
     link: https://github.com/HanaNoryu
     icon: ri:github-line
@@ -100,8 +104,8 @@ menu:
     #   icon: ri:cloud-line
     #   count: 你猜
   custom:
-    title: 关于本站
-    path: /about/#comment
+    title: 关于站点
+    path: /about/site
     icon: ri:settings-line
 
 pages:
