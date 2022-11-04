@@ -1,11 +1,14 @@
 ---
 title: 关于站点
-hideTime: true
+date: 2022-11-1 9:26:36
 type: about
+update: 2022-11-4 10:10:33
 aplayer: true
 reward: false
 icon: ri:home-4-line
+iconify: true
 comments: false
+hideTime: true
 ---
 
 {% meting "27876224" "netease" "song" "theme:#C20C0C" %}
@@ -24,6 +27,8 @@ comments: false
 
 本页主要用来记录站点的历史。
 
+本站使用的是 [YunYouJun](https://github.com/YunYouJun) 大佬开发的主题 [hexo-theme-yun](https://github.com/YunYouJun/hexo-theme-yun/)，如果你也喜欢的话，也欢迎试一试，同时不要忘了到仓库地址支持一下！
+
 ## 本站编年史
 
 <details open>
@@ -34,6 +39,6 @@ comments: false
 名称：**Noryuの杂物铺**
 域名：<https://hananoryu.cn>
 
-一时兴起，故建站一试~ （By Wordpress）成功赶在了年末。
+一时兴起，故建站一试~ （By Hexo）成功赶在了年末。
 
 </details>

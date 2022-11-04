@@ -100,7 +100,7 @@ menu:
     #   icon: ri:cloud-line
     #   count: 你猜
   custom:
-    title: 留言板
+    title: 关于本站
     path: /about/#comment
     icon: ri:settings-line
 
