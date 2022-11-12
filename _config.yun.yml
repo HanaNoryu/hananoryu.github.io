@@ -187,7 +187,7 @@ footer:
     suffix: (●'◡'●)
     start_time: '2019-04-12T00:00:00'
   support:
-    enable: false
+    enable: true
     title: 又拍云
     link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
     logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
