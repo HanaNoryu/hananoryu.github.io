@@ -175,7 +175,7 @@ footer:
     enable: true
   beian:
     enable: true
-    icp: 苏ICP备xxxxxxxx号
+    icp: 豫ICP备2022025836号
     # 公安备案
     gongan:
       enable: false
