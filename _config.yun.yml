@@ -190,7 +190,7 @@ footer:
     enable: true
     title: 又拍云
     link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
-    logo: https://image.hananoryu.cn/images/upyun-logo.png
+    logo: https://image.hananoryu.cn/images/upyun_logo.png
     prefix: 本网站由
     suffix: 提供 CDN 加速
 

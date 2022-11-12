@@ -17,7 +17,7 @@ hideTime: true
 
 <div class="text-center">
   <div class="site-author-avatar">
-    <img src="https://s2.loli.net/2022/10/31/JNEaybrIPDfVtqH.png" alt="portrait" title="ID : HanaNoryu">
+    <img src="https://image.hananoryu.cn/images/hananoryu.png" alt="portrait" title="ID : HanaNoryu">
   </div>
 </div>
 
