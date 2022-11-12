@@ -1,7 +1,7 @@
 mode: auto
 
 avatar:
-  url: https://s2.loli.net/2022/10/31/JNEaybrIPDfVtqH.png
+  url: https://image.hananoryu.cn/images/hananoryu.png
   rounded: true
   opacity: 1
 
@@ -190,7 +190,7 @@ footer:
     enable: true
     title: 又拍云
     link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
-    logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+    logo: https://image.hananoryu.cn/images/upyun-logo.png
     prefix: 本网站由
     suffix: 提供 CDN 加速
 
