@@ -3,10 +3,10 @@ title: 使用又拍云 CDN 加速你的 GitHub Pages 网站
 date: 2022-11-13 15:43:45
 comments: false
 tags:
-    - 博客
-    - CDN
+- 博客
+- CDN
 categories:
-    - 极光的小教程
+- 极光的小教程
 toc: true
 description: 由于我的个人博客采用的是 hexo 搭建的，并且托管于 GitHub Pages。所以国内的访问速度欠佳，而且有时还会出现无法连接的情况，再加上 GitHub 无法被百度检索到。在种种问题的困扰下，我采用了 CDN 为我的博客进行访问加速，同时也解决了百度无法检索的问题。在与各种 CDN 服务运营商的对比下，因为又拍云的一些吸引我的地方，我最终选择了又拍云来提供 CDN 服务。这篇博客就是记录了我使用又拍云时的一些经验之谈。
 abbrlink: 221113
@@ -29,7 +29,7 @@ abbrlink: 221113
 
 你仅需提供静态文件，他们便可以为你托管网站，而且可以自定义域名，而无须操心其他任何后端维护的事情。
 
-当然他们也不是万能的，这些网站免费账号往往会有一个流量带宽的限制，以及并发数的限制，且国内速度欠佳。 
+当然他们也不是万能的，这些网站免费账号往往会有一个流量带宽的限制，以及并发数的限制，且国内速度欠佳。
 
 这时候便该轮到 CDN 出马了。
 
@@ -43,7 +43,9 @@ CDN 的全称是 Content Delivery Network，即内容分发网络。CDN 是构�
 
 ## 为什么是又拍云？
 
-![](http://image.hananoryu.cn/images/upyun_logo.png)
+<div style="width: 40%">
+  <img src="https://image.hananoryu.cn/images/upyun_logo.png" alt="upyun">
+</div>
 
 国内存在很多的云服务商，都提供有 CDN 服务，比如像腾讯云、阿里云、七牛云等。
 
@@ -118,7 +120,7 @@ CDN 的全称是 Content Delivery Network，即内容分发网络。CDN 是构�
 
 <div class="warning">
 
-开始前需要确保拥有：1.已经成功部署到 GitHub Pages 的静态博客。2.已经备案的域名
+>开始前需要确保拥有：1.已经成功部署到 GitHub Pages 的静态博客。2.已经备案的域名
 
 </div>
 
