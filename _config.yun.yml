@@ -246,7 +246,7 @@ baidu_push: true
 
 google_analytics:
   enable: true
-  id: G-GS7RDD51PT
+  id: G-G7ZRGQGP5K
 
 google_adsense:
   enable: false
