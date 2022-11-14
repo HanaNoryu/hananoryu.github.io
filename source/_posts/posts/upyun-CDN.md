@@ -43,9 +43,7 @@ CDN 的全称是 Content Delivery Network，即内容分发网络。CDN 是构�
 
 ## 为什么是又拍云？
 
-<div style="width: 40%">
-  <img src="https://image.hananoryu.cn/images/upyun_logo.png" alt="upyun">
-</div>
+<img src="https://image.hananoryu.cn/images/upyun_logo.png" alt="upyun" style="height: 100px">
 
 国内存在很多的云服务商，都提供有 CDN 服务，比如像腾讯云、阿里云、七牛云等。
 
