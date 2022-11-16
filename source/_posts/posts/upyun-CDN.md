@@ -1,7 +1,7 @@
 ---
 title: 使用又拍云 CDN 加速你的 GitHub Pages 网站
 date: 2022-11-13 15:43:45
-update: 2022-11-13 15:43:45
+updated: 2022-11-13 15:43:45
 comments: false
 tags:
 - 博客

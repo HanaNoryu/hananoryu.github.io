@@ -48,7 +48,7 @@ notice:
 
 bg_image:
   enable: true
-  url: https://s2.loli.net/2022/11/02/BqxzoClAmNYUDs2.jpg # recomend image related to your mode
+  url: https://image.hananoryu.cn/images/pixiv_92389224_p3.webp # recomend image related to your mode
   dark: https://cdn.yunyoujun.cn/img/bg/galaxy.jpg
   # blur: 30px
   opacity: 0.8
