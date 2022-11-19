@@ -1019,7 +1019,7 @@ body 是对本次 commit 的详细描述，可以分成多行。
 >
 > 官方网站：[cz-git](https://cz-git.qbb.sh/zh/)
 
-![cz-git](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/12d9e35b52304043a0ee99b1d0bde6b9~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp)
+![cz-git](https://user-images.githubusercontent.com/40693636/188255006-b9df9837-4678-4085-9395-e2905d7ec7de.gif)
 
 安装：
 
