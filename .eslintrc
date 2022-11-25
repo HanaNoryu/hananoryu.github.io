@@ -1,0 +1,8 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "no-new": "off",
+    "yml/no-empty-mapping-value": "off",
+    "@typescript-eslint/space-infix-ops": "off"
+  }
+}

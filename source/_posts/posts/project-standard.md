@@ -611,7 +611,7 @@ singleQuote: true
 # "as-needed"- 仅在需要时在对象属性周围添加引号。
 # "consistent"- 如果对象中的至少一个属性需要引号，请引用所有属性。
 # "preserve"- 尊重对象属性中引号的输入使用。
-quoteProps: "as-needed"
+quoteProps: as-needed
 
 # 在 JSX 中使用单引号而不是双引号
 jsxSingleQuote: false
@@ -620,7 +620,7 @@ jsxSingleQuote: false
 # "es5"- 在 ES5 中有效的尾随逗号（对象、数组等）。TypeScript 中的类型参数中没有尾随逗号。
 # "none"- 没有尾随逗号。
 # "all"- 尽可能使用尾随逗号（包括函数参数和调用）。要运行，以这种方式格式化的 JavaScript 代码需要一个支持 ES2017（Node.js 8+ 或现代浏览器）或下级编译的引擎。这还可以在 TypeScript 中的类型参数中启用尾随逗号（自 2018 年 1 月发布的 TypeScript 2.7 起支持）。
-trailingComma: "es5"
+trailingComma: es5
 
 # 在对象文字中的括号之间打印空格
 bracketSpacing: true
@@ -631,7 +631,7 @@ bracketSameLine: true
 # 在唯一的箭头函数参数周围包含括号。
 # always"- 始终包括括号。例子：(x) => x
 # "avoid"- 尽可能省略括号。例子：x => x
-arrowParens: "always"
+arrowParens: always
 
 # 仅格式化文件的一部分。
 # 这两个选项可用于格式化以给定字符偏移量开始和结束的代码（分别为包含和不包含）。范围将扩大：
@@ -660,14 +660,14 @@ arrowParens: "always"
 # "always"- 如果散文超过打印宽度，则换行。
 # "never"- 将每个散文块展开成一行。
 # "preserve"- 什么都不做，让散文保持原样。首次在 v1.9.0 中可用
-proseWrap: "preserve"
+proseWrap: preserve
 
 # HTML 空白敏感性
 # 指定 HTML、Vue、Angular 和 Handlebars 的全局空格敏感性。有关详细信息，请参阅空格敏感格式。
 # "css"- 尊重 CSSdisplay属性的默认值。对于与处理相同的车把strict。
 # "strict"- 所有标签周围的空格（或缺少空格）被认为是重要的。
 # "ignore"- 所有标签周围的空白（或缺少它）被认为是微不足道的。
-htmlWhitespaceSensitivity: "css"
+htmlWhitespaceSensitivity: css
 
 # Vue 文件脚本和样式标签缩进
 # 是否缩进 Vue 文件中的代码<script>和<style>标签。有些人（比如Vue 的创建者）不会缩进来保存缩进级别，但这可能会破坏编辑器中的代码折叠。
@@ -680,13 +680,13 @@ vueIndentScriptAndStyle: false
 # "crlf"- 回车 + 换行字符 ( \r\n)，常见于 Windows
 # "cr"- 仅回车字符 ( \r)，很少使用
 # "auto"- 保持现有的行尾（一个文件中的混合值通过查看第一行之后使用的内容进行标准化）
-endOfLine: "lf"
+endOfLine: lf
 
 # 嵌入式语言格式
 # 控制 Prettier 是否格式化文件中嵌入的引用代码。
 # "auto"- 如果 Prettier 可以自动识别嵌入代码，请格式化它。
 # "off"- 永远不要自动格式化嵌入代码。
-embeddedLanguageFormatting: "auto"
+embeddedLanguageFormatting: auto
 
 # 每行单个属性
 # 在 HTML、Vue 和 JSX 中每行强制执行单个属性。
@@ -777,49 +777,49 @@ Stylelint 是一个强大、先进的 CSS 代码检查器（linter），可以�
 // @see: https://stylelint.io
 
 module.exports = {
-	/* 继承某些已有的规则 */
-	extends: [
-		"stylelint-config-standard", // 配置stylelint拓展插件
-		"stylelint-config-html/vue", // 配置 vue 中 template 样式格式化
-		"stylelint-config-standard-scss", // 配置stylelint scss插件
-		"stylelint-config-recommended-vue/scss", // 配置 vue 中 scss 样式格式化
-		"stylelint-config-recess-order", // 配置stylelint css属性书写顺序插件,
-		"stylelint-config-prettier" // 配置stylelint和prettier兼容
-	],
-	overrides: [
-		// 扫描 .vue/html 文件中的<style>标签内的样式
-		{
-			files: ["**/*.{vue,html}"],
-			customSyntax: "postcss-html"
-		}
-	],
-	/**
+  /* 继承某些已有的规则 */
+  extends: [
+    'stylelint-config-standard', // 配置stylelint拓展插件
+    'stylelint-config-html/vue', // 配置 vue 中 template 样式格式化
+    'stylelint-config-standard-scss', // 配置stylelint scss插件
+    'stylelint-config-recommended-vue/scss', // 配置 vue 中 scss 样式格式化
+    'stylelint-config-recess-order', // 配置stylelint css属性书写顺序插件,
+    'stylelint-config-prettier' // 配置stylelint和prettier兼容
+  ],
+  overrides: [
+    // 扫描 .vue/html 文件中的<style>标签内的样式
+    {
+      files: ['**/*.{vue,html}'],
+      customSyntax: 'postcss-html'
+    }
+  ],
+  /**
 	 * null  => 关闭该规则
 	 */
-	rules: {
-		"no-descending-specificity": null, // 禁止在具有较高优先级的选择器后出现被其覆盖的较低优先级的选择器
-		"function-url-quotes": "always", // 要求或禁止 URL 的引号 "always(必须加上引号)"|"never(没有引号)"
-		"string-quotes": "double", // 指定字符串使用单引号或双引号
-		"unit-case": null, // 指定单位的大小写 "lower(全小写)"|"upper(全大写)"
-		"color-hex-case": "lower", // 指定 16 进制颜色的大小写 "lower(全小写)"|"upper(全大写)"
-		"color-hex-length": "long", // 指定 16 进制颜色的简写或扩写 "short(16进制简写)"|"long(16进制扩写)"
-		"rule-empty-line-before": "never", // 要求或禁止在规则之前的空行 "always(规则之前必须始终有一个空行)"|"never(规则前绝不能有空行)"|"always-multi-line(多行规则之前必须始终有一个空行)"|"never-multi-line(多行规则之前绝不能有空行。)"
-		"font-family-no-missing-generic-family-keyword": null, // 禁止在字体族名称列表中缺少通用字体族关键字
-		"block-opening-brace-space-before": "always", // 要求在块的开大括号之前必须有一个空格或不能有空白符 "always(大括号前必须始终有一个空格)"|"never(左大括号之前绝不能有空格)"|"always-single-line(在单行块中的左大括号之前必须始终有一个空格)"|"never-single-line(在单行块中的左大括号之前绝不能有空格)"|"always-multi-line(在多行块中，左大括号之前必须始终有一个空格)"|"never-multi-line(多行块中的左大括号之前绝不能有空格)"
-		"property-no-unknown": null, // 禁止未知的属性(true 为不允许)
-		"no-empty-source": null, // 禁止空源码
-		"declaration-block-trailing-semicolon": null, // 要求或不允许在声明块中使用尾随分号 string："always(必须始终有一个尾随分号)"|"never(不得有尾随分号)"
-		"selector-class-pattern": null, // 强制选择器类名的格式
-		"scss/at-import-partial-extension": null, // 解决不能引入scss文件
-		"value-no-vendor-prefix": null, // 关闭 vendor-prefix(为了解决多行省略 -webkit-box)
-		"selector-pseudo-class-no-unknown": [
-			true,
-			{
-				ignorePseudoClasses: ["global", "v-deep", "deep"]
-			}
-		]
-	}
-};
+  rules: {
+    'no-descending-specificity': null, // 禁止在具有较高优先级的选择器后出现被其覆盖的较低优先级的选择器
+    'function-url-quotes': 'always', // 要求或禁止 URL 的引号 "always(必须加上引号)"|"never(没有引号)"
+    'string-quotes': 'double', // 指定字符串使用单引号或双引号
+    'unit-case': null, // 指定单位的大小写 "lower(全小写)"|"upper(全大写)"
+    'color-hex-case': 'lower', // 指定 16 进制颜色的大小写 "lower(全小写)"|"upper(全大写)"
+    'color-hex-length': 'long', // 指定 16 进制颜色的简写或扩写 "short(16进制简写)"|"long(16进制扩写)"
+    'rule-empty-line-before': 'never', // 要求或禁止在规则之前的空行 "always(规则之前必须始终有一个空行)"|"never(规则前绝不能有空行)"|"always-multi-line(多行规则之前必须始终有一个空行)"|"never-multi-line(多行规则之前绝不能有空行。)"
+    'font-family-no-missing-generic-family-keyword': null, // 禁止在字体族名称列表中缺少通用字体族关键字
+    'block-opening-brace-space-before': 'always', // 要求在块的开大括号之前必须有一个空格或不能有空白符 "always(大括号前必须始终有一个空格)"|"never(左大括号之前绝不能有空格)"|"always-single-line(在单行块中的左大括号之前必须始终有一个空格)"|"never-single-line(在单行块中的左大括号之前绝不能有空格)"|"always-multi-line(在多行块中，左大括号之前必须始终有一个空格)"|"never-multi-line(多行块中的左大括号之前绝不能有空格)"
+    'property-no-unknown': null, // 禁止未知的属性(true 为不允许)
+    'no-empty-source': null, // 禁止空源码
+    'declaration-block-trailing-semicolon': null, // 要求或不允许在声明块中使用尾随分号 string："always(必须始终有一个尾随分号)"|"never(不得有尾随分号)"
+    'selector-class-pattern': null, // 强制选择器类名的格式
+    'scss/at-import-partial-extension': null, // 解决不能引入scss文件
+    'value-no-vendor-prefix': null, // 关闭 vendor-prefix(为了解决多行省略 -webkit-box)
+    'selector-pseudo-class-no-unknown': [
+      true,
+      {
+        ignorePseudoClasses: ['global', 'v-deep', 'deep']
+      }
+    ]
+  }
+}
 ```
 
 创建 Stylelint 过滤规则
@@ -1052,7 +1052,7 @@ pnpm add commitizen -D
 /** @type {import('cz-git').UserConfig} */
 
 module.exports = {
-  ignores: [(commit) => commit.includes('init')],
+  ignores: [commit => commit.includes('init')],
   extends: ['@commitlint/config-conventional'],
   rules: {
     // @see: https://commitlint.js.org/#/reference-rules
@@ -1086,7 +1086,7 @@ module.exports = {
   },
   prompt: {
     messages: {
-      type: "Select the type of change that you're committing:",
+      type: 'Select the type of change that you\'re committing:',
       scope: 'Denote the SCOPE of this change (optional):',
       customScope: 'Denote the SCOPE of this change:',
       subject: 'Write a SHORT, IMPERATIVE tense description of the change:\n',
@@ -1156,7 +1156,7 @@ module.exports = {
       },
       {
         value: 'chore',
-        name: "chore:    🔨  Other changes that don't modify src or test files",
+        name: 'chore:    🔨  Other changes that don\'t modify src or test files',
         emoji: '🔨',
       },
       {

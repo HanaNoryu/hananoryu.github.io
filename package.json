@@ -1,6 +1,6 @@
 {
   "name": "hananoryu.github.io",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@7.1.7",
   "description": "HanaNoryu Blog",
@@ -28,9 +28,11 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
+    "dev": "cross-env NODE_ENV=development && hexo server",
+    "test": "cross-env NODE_ENV=test && hexo s",
     "predeploy": "hexo clean && hexo g",
-    "post": "hexo new post"
+    "post": "hexo new post",
+    "lint": "eslint ."
   },
   "hexo": {
     "version": "6.3.0"
@@ -49,11 +51,17 @@
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-stylus": "^2.1.0",
-    "hexo-server": "^3.0.0",
     "hexo-tag-aplayer": "^3.0.4",
     "hexo-tag-common": "^0.2.0",
     "hexo-theme-yun": "^1.10.9",
     "hexo-widget-tree": "^0.2.2",
     "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.26.3",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.28.0",
+    "hexo-server": "^3.0.0",
+    "typescript": "^4.9.3"
   }
 }
