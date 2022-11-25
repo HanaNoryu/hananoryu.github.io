@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.26.3
   cross-env: ^7.0.3
-  eslint: ^8.23.0
+  eslint: ^8.28.0
   hexo: ^6.3.0
   hexo-abbrlink: ^2.2.1
   hexo-algolia: ^1.3.2
@@ -23,7 +23,7 @@ specifiers:
   hexo-theme-yun: ^1.10.9
   hexo-widget-tree: ^0.2.2
   hexo-wordcount: ^6.0.1
-  typescript: ^4.8.2
+  typescript: ^4.9.3
 
 dependencies:
   hexo: 6.3.0
