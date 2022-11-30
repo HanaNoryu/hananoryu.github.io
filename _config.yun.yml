@@ -203,6 +203,9 @@ say:
     enable: true
     api: https://v1.hitokoto.cn
 
+mourn:
+  enable: true
+
 wordcloud:
   enable: true
   height: 350
