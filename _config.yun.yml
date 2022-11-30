@@ -150,16 +150,16 @@ reward:
   # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
   methods:
     - name: 支付宝
-      path: https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg
+      path: 
       color: '#00A3EE'
       icon: ri:alipay-line
       # link: https://xxxx
     - name: QQ 支付
-      path: https://cdn.yunyoujun.cn/img/donate/qqpay-qrcode.png
+      path: 
       color: '#12B7F5'
       icon: ri:qq-line
     - name: 微信支付
-      path: https://cdn.yunyoujun.cn/img/donate/wechatpay-qrcode.jpg
+      path: 
       color: '#2DC100'
       icon: ri:wechat-pay-line
 
@@ -204,7 +204,9 @@ say:
     api: https://v1.hitokoto.cn
 
 mourn:
-  enable: true
+  enable: false
+  days:
+    - 4-4
 
 wordcloud:
   enable: true
