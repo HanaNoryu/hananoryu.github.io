@@ -164,7 +164,7 @@ reward:
       icon: ri:wechat-pay-line
 
 footer:
-  since: 2022
+  since: 2023
   icon:
     name: ri:cloud-line
     animated: true
