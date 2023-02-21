@@ -1,18 +1,51 @@
-# Hexo 站点源文件
+# create-valaxy
 
-Hexo 主题：[Yun](https://github.com/YunYouJun/hexo-theme-yun/)
+Example: [valaxy.site](https://valaxy.site)
 
-- 主站：[hananoryu.cn](https://www.hananoryu.cn) | [hananoryu.github.io](https://hananoryu.github.io)
+## Usage
 
-## Use
+```bash
+# install
+npm i
+# or pnpm i
 
-### 日常发布
-
-发布时，同时推送至 GitHub 的 hexo 分支备份，使用 CI（GitHub Actions）生成静态页面推送至 Github
-
-```shell
-npm run backup
-# or
-sh backup.sh
-# sh backup.sh 'change info'
+# start
+npm run dev
+# or pnpm dev
 ```
+
+See `http://localhost:4859/`, have fun!
+
+### Config
+
+Modify `valaxy.config.ts` to custom your blog.
+
+English & Chinese Docs is coming!
+
+> Wait a minute.
+
+### Docker
+
+```bash
+docker build . -t your-valaxy-blog-name:latest
+```
+
+## Structure
+
+In most cases, you only need to work in the `pages` folder.
+
+### Main folders
+
+- `pages`: your all pages
+  - `posts`: write your posts here, will be counted as posts
+- `styles`: override theme styles, `index.scss`/`vars.csss`/`index.css` will be loaded automatically
+- `components`: custom your vue components (will be loaded automatically)
+- `layouts`: custom layouts (use it by `layout: xxx` in md)
+- `locales`: custom i18n
+
+### Other
+
+- `.vscode`: recommend some useful plugins & settings, you can preview icon/i18n/class...
+- `.github`: GitHub Actions to auto build & deploy to GitHub Pages
+- `netlify.toml`: for [netlify](https://www.netlify.com/)
+- `vercel.json`: for [vercel](https://vercel.com/)
