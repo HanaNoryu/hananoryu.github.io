@@ -3,15 +3,18 @@ title: 关于站点
 date: 2022-11-1 9:26:36
 type: about
 update: 2022-11-4 10:10:33
+aside: false
 aplayer: true
-reward: false
-icon: ri:home-4-line
-iconify: true
-comments: false
-hideTime: true
+icon: i-ri:home-4-line
+comment: false
 ---
 
-{% meting "27876224" "netease" "song" "theme:#C20C0C" %}
+<meting-js
+ id="27876224"
+ server="netease"
+ type="song"
+ theme="#C20C0C">
+</meting-js>
 
 ## Blog
 

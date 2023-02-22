@@ -1,10 +1,8 @@
 ---
 title: 我的小伙伴们
-keywords: 链接
 description: 我的小伙伴们
-comments: true
-links: https://www.yunyoujun.cn/friends/links.json
-random: true
+comment: false
+aside: false
 ---
 
 <YunLinks :links="frontmatter.links" :random="frontmatter.random" />

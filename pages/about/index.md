@@ -3,12 +3,8 @@ title: 关于我
 date: 2022-11-1 10:26:36
 type: about
 update: 2022-11-4 10:10:33
-aplayer: true
-reward: false
-icon: ri:heart-line
-iconify: true
-comments: false
-hideTime: true
+lang: 'zh-CN'
+icon: i-ri:heart-line
 ---
 
 > ## Me
