@@ -12,10 +12,15 @@ export default defineValaxyConfig<UserThemeConfig>({
   themeConfig: {
     banner: {
       enable: true,
-      title: ['Noryu', 'の', '杂', '物', '铺'],
+      title: '极光の杂物铺',
       cloud: {
         enable: true,
       },
+    },
+
+    bg_image: {
+      enable: true,
+      url: 'http://image.hananoryu.cn/images/pixiv_92389224_p3.webp',
     },
 
     pages: [
@@ -35,6 +40,9 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     footer: {
       since: 2023,
+      icon: {
+        url: '',
+      },
       beian: {
         enable: true,
         icp: '豫ICP备2022025836号',
@@ -54,6 +62,9 @@ export default defineValaxyConfig<UserThemeConfig>({
       apiKey: '1ec248f9b05a87b508f52c823a4bdb1a',
       indexName: 'hexo',
     }),
-    addonWaline(),
+    addonWaline({
+      serverURL: 'https://waline.hananoryu.cn',
+      comment: true,
+    }),
   ],
 })

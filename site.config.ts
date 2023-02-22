@@ -2,13 +2,24 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   lang: 'zh-CN',
-  title: 'Noryuの杂物铺',
+  title: '极光の杂物铺',
   subtitle: '记录生活中的点点滴滴',
   description: 'The world is full of possibilities.',
   author: {
     name: 'HanaNoryu',
+    email: 'HanaNoryu@outlook.com',
+    link: 'https://www.hananoryu.cn',
+    avatar: 'http://image.hananoryu.cn/images/hananoryu.png',
+    status: {
+      message: '努力提升自己中...',
+    },
   },
   url: 'https://www.hananoryu.cn',
+  favicon: 'http://image.hananoryu.cn/images/ico.webp',
+  feed: {
+    name: '极光の杂物铺',
+    favicon: 'http://image.hananoryu.cn/images/ico.webp',
+  },
   mediumZoom: { enable: true },
   social: [
     {
@@ -56,38 +67,34 @@ export default defineSiteConfig({
   ],
 
   search: {
-    enable: false,
-  },
-
-  sponsor: {
-    enable: false,
-    title: '我很可爱，请给我钱！',
-    methods: [
-      {
-        name: '支付宝',
-        url: '',
-        color: '#00A3EE',
-        icon: 'i-ri-alipay-line',
-      },
-      {
-        name: 'QQ 支付',
-        url: '',
-        color: '#12B7F5',
-        icon: 'i-ri-qq-line',
-      },
-      {
-        name: '微信支付',
-        url: '',
-        color: '#2DC100',
-        icon: 'i-ri-wechat-pay-line',
-      },
-    ],
-  },
-
-  search: {
     enable: true,
-    type: 'fuse',
+    type: 'algolia',
   },
+
+  // sponsor: {
+  //   enable: false,
+  //   title: '我很可爱，请给我钱！',
+  //   methods: [
+  //     {
+  //       name: '支付宝',
+  //       url: '',
+  //       color: '#00A3EE',
+  //       icon: 'i-ri-alipay-line',
+  //     },
+  //     {
+  //       name: 'QQ 支付',
+  //       url: '',
+  //       color: '#12B7F5',
+  //       icon: 'i-ri-qq-line',
+  //     },
+  //     {
+  //       name: '微信支付',
+  //       url: '',
+  //       color: '#2DC100',
+  //       icon: 'i-ri-wechat-pay-line',
+  //     },
+  //   ],
+  // },
 
   comment: {
     enable: true,
