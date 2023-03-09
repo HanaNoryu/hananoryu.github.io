@@ -1,5 +1,7 @@
 mode: auto
 
+favicon: 'http://image.hananoryu.cn/images/ico.webp'
+
 avatar:
   url: https://image.hananoryu.cn/images/hananoryu.png
   rounded: true
