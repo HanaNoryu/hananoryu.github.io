@@ -2,15 +2,15 @@
 title: 使用又拍云 CDN 加速你的 GitHub Pages 网站
 date: 2022-11-13 15:43:45
 updated: 2022-11-13 15:43:45
-comments: false
-tags:
-- 博客
-- CDN
-categories:
-- 极光的小教程
+duration: '15min'
+author: 'HanaNoryu'
+sponsor: false
+copyright: false
 toc: true
-description: 由于我的个人博客采用的是 hexo 搭建的，并且托管于 GitHub Pages。所以国内的访问速度欠佳，而且有时还会出现无法连接的情况，再加上 GitHub 无法被百度检索到。在种种问题的困扰下，我采用了 CDN 为我的博客进行访问加速，同时也解决了百度无法检索的问题。在与各种 CDN 服务运营商的对比下，因为又拍云的一些吸引我的地方，我最终选择了又拍云来提供 CDN 服务。这篇博客就是记录了我使用又拍云时的一些经验之谈。
-abbrlink: 221113
+mediun_zoom: true
+tags: ['博客', 'CDN']
+categories: ['极光的小教程']
+excerpt: 由于我的个人博客采用的是 hexo 搭建的，并且托管于 GitHub Pages。所以国内的访问速度欠佳，而且有时还会出现无法连接的情况，再加上 GitHub 无法被百度检索到。在种种问题的困扰下，我采用了 CDN 为我的博客进行访问加速，同时也解决了百度无法检索的问题。在与各种 CDN 服务运营商的对比下，因为又拍云的一些吸引我的地方，我最终选择了又拍云来提供 CDN 服务。这篇博客就是记录了我使用又拍云时的一些经验之谈。
 ---
 
 ## 前言
