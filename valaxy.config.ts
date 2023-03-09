@@ -25,6 +25,20 @@ export default defineValaxyConfig<UserThemeConfig>({
       opacity: 0.8,
     },
 
+    say: {
+      enable: true,
+      api: 'public/young',
+      hitokoto: {
+        enable: false,
+        api: '',
+      },
+    },
+
+    notice: {
+      enable: false,
+      content: '',
+    },
+
     pages: [
       {
         name: '我的小伙伴们',
@@ -44,8 +58,10 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2023,
       icon: {
         enable: true,
+        animated: true,
         url: '',
       },
+      powered: true,
       beian: {
         enable: true,
         icp: '豫ICP备2022025836号',
