@@ -1,6 +1,6 @@
 mode: auto
 
-favicon: 'http://image.hananoryu.cn/images/ico.webp'
+favicon: /favicon.webp
 
 avatar:
   url: https://image.hananoryu.cn/images/hananoryu.png
