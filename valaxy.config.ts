@@ -21,6 +21,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     bg_image: {
       enable: true,
       url: 'http://image.hananoryu.cn/images/pixiv_92389224_p3.webp',
+      dark: 'http://image.hananoryu.cn/images/pkq3zp.jpg',
+      opacity: 0.8,
     },
 
     pages: [
@@ -41,6 +43,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     footer: {
       since: 2023,
       icon: {
+        enable: true,
         url: '',
       },
       beian: {
