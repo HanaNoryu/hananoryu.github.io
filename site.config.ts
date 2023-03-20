@@ -68,7 +68,7 @@ export default defineSiteConfig({
 
   search: {
     enable: true,
-    type: 'algolia',
+    type: 'fuse',
   },
 
   // sponsor: {
