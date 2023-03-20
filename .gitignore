@@ -25,5 +25,3 @@ pnpm-global/
 # dev
 node_modules/
 *.log
-
-.github
