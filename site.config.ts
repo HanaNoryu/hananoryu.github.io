@@ -9,16 +9,16 @@ export default defineSiteConfig({
     name: 'HanaNoryu',
     email: 'HanaNoryu@outlook.com',
     link: 'https://www.hananoryu.cn',
-    avatar: 'http://image.hananoryu.cn/images/hananoryu.png',
+    avatar: 'https://image.hananoryu.cn/images/hananoryu.png',
     status: {
       emoji: '✨',
       message: '努力提升自己中...',
     },
   },
   url: 'https://www.hananoryu.cn',
-  favicon: 'http://image.hananoryu.cn/images/ico.webp',
+  favicon: 'https://image.hananoryu.cn/images/ico.webp',
   feed: {
-    favicon: 'http://image.hananoryu.cn/images/ico.webp',
+    favicon: 'https://image.hananoryu.cn/images/ico.webp',
   },
   mediumZoom: { enable: true },
   social: [

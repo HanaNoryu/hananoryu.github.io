@@ -20,8 +20,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     bg_image: {
       enable: true,
-      url: 'http://image.hananoryu.cn/images/pixiv_92389224_p3.webp',
-      dark: 'http://image.hananoryu.cn/images/pkq3zp.jpg',
+      url: 'https://image.hananoryu.cn/images/pixiv_92389224_p3.webp',
+      dark: 'https://image.hananoryu.cn/images/pkq3zp.jpg',
       opacity: 0.8,
     },
 
