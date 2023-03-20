@@ -11,13 +11,13 @@ export default defineSiteConfig({
     link: 'https://www.hananoryu.cn',
     avatar: 'http://image.hananoryu.cn/images/hananoryu.png',
     status: {
+      emoji: '✨',
       message: '努力提升自己中...',
     },
   },
   url: 'https://www.hananoryu.cn',
   favicon: 'http://image.hananoryu.cn/images/ico.webp',
   feed: {
-    name: '极光の杂物铺',
     favicon: 'http://image.hananoryu.cn/images/ico.webp',
   },
   mediumZoom: { enable: true },
@@ -98,5 +98,15 @@ export default defineSiteConfig({
 
   comment: {
     enable: true,
+  },
+
+  statistics: {
+    enable: true,
+    readTime: {
+      speed: {
+        cn: 300,
+        en: 100,
+      },
+    },
   },
 })

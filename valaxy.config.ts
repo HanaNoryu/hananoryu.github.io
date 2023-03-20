@@ -27,7 +27,7 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     say: {
       enable: true,
-      api: 'public/young',
+      api: '/young.json',
       hitokoto: {
         enable: false,
         api: '',
@@ -58,8 +58,11 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2023,
       icon: {
         enable: true,
+        // name: 'HanaNoryu',
         animated: true,
+        color: 'pink',
         url: '',
+        title: 'HanaNoryu',
       },
       powered: true,
       beian: {
