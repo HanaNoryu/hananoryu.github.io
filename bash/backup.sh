@@ -4,4 +4,4 @@ if ["$info" = ""]; then
 fi
 git add -A
 git commit -m "$info"
-git push origin hexo
+git push origin valaxy
