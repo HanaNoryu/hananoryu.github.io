@@ -6,6 +6,7 @@ toc: false
 aside: false
 icon: 'i-ri:heart-line'
 comment: true
+nav: false
 ---
 
 > ## Me

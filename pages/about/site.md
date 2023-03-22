@@ -7,6 +7,7 @@ aside: false
 aplayer: true
 icon: 'i-ri:home-4-line'
 comment: false
+nav: false
 ---
 
 <meting-js
