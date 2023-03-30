@@ -35,8 +35,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     notice: {
-      enable: false,
-      content: '',
+      enable: true,
+      content: '「それでも君が好きだよ」',
     },
 
     pages: [
