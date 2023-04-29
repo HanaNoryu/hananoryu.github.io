@@ -40,13 +40,13 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "valaxy": "0.14.17",
+    "valaxy": "0.14.28",
     "valaxy-addon-algolia": "^0.0.3",
     "valaxy-addon-waline": "^0.1.0",
-    "valaxy-theme-yun": "0.14.17"
+    "valaxy-theme-yun": "0.14.28"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.37.0",
+    "@antfu/eslint-config": "^0.38.5",
     "cross-env": "^7.0.3",
     "eslint": "^8.39.0",
     "typescript": "^5.0.4",
